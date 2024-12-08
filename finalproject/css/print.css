@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    color: black;
+    font-size: 12pt;
+}
+
+img {
+    display: none;
+}
+
+main {
+    display: block;
+    width: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+h1, h2 {
+    text-shadow: none;
+}
+
+nav, footer {
+    display: none;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="cars, honda, honda models, nsx, accord, civic">
+    <meta name="description" content="Honda's infamous models and brief history">
+    <title>Honda Innovations</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/index.css" media="screen">
+    <link rel="stylesheet" href="css/print.css" media="print">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asset&display=swap" rel="stylesheet">
+
+
+
+
+    <style>
+        body {
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        div {
+            flex: 1;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        #main {
+            transition: margin-left 0.5s;
+            padding: 16px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+ 
+<body>
+    <div class="grid-container">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="https://global.honda/en/">Official Site</a>
+            <a href="#">History</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div id="main">
+            <h1 class="asset-regular">HONDA INNOVATIONS</h1>
+            <p class="asset-regularsmall">For decades, Honda has been at the forefront of automotive innovation, engineering excellence, and
+                sustainable initiatives. Their mission is to create products that bring joy and improve lives.</p>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+
+        <img src="media/honda-logo.png" alt="Honda Logo" class="logo">
+        <div class="card nsx">
+            <img src="media/honda-nsx.jpg" alt="Honda NSX" style="width:100%">
+            <div class="container">
+                <h3><b>Honda NSX</b></h3>
+                <p>A high-performance supercar blending cutting-edge hybrid technology with precision engineering for an
+                    exhilarating driving experience.</p>
+            </div>
+        </div>
+        <div class="card civic">
+            <img src="media/honda-civic.jpg" alt="Honda Civic" style="width:100%">
+            <div class="container">
+                <h3><b>Honda Civic</b></h3>
+                <p>A versatile compact car known for its reliability, fuel efficiency, and sleek design.</p>
+            </div>
+        </div>
+        <div class="card accord">
+            <img src="media/honda-accord.jpg" alt="Honda Accord" style="width:100%">
+            <div class="container">
+                <h3><b>Honda Accord</b></h3>
+                <p>A refined midsize sedan offering a perfect balance of comfort, performance, and advanced features.
+                </p>
+            </div>
+        </div>
+
+
+        <section>
+            <img src="media/honda-logo.png" alt="Honda Logo" style="width: 75px; height: 50px;">
+            <h2>Honda: A Legacy of Innovation and Excellence</h2>
+            <p>Honda, founded in 1948 by Soichiro Honda and Takeo Fujisawa, began as a motorcycle company and quickly
+                became the worlds largest motorcycle manufacturer by 1959. Expanding into automobiles, Honda introduced
+                iconic models like the Civic, Accord, and NSX, renowned for their reliability, performance, and
+                innovative technology.</p>
+            <br>
+            <p>Honda has also led advancements in environmental technology, introducing the first hybrid car in the U.S.
+                (Honda Insight, 1999) and pioneering hydrogen fuel cell and electric vehicles. From the racetrack to the
+                road, Honda continues to inspire innovation and trust worldwide.</p>
+        </section>
+        <aside>
+            <h2> Achievements in Racing</h2>
+            <ul>
+                <li><b>Formula 1:</b> Six Constructors' Championships (1986 to 1991) and Drivers Championships with
+                    legends like Ayrton Senna and Max Verstappen (2021).</li>
+                <li><b>MotoGP:</b> Over 20 premier-class World Championships with riders such as Marc Márquez and
+                    Valentino Rossi.</li>
+                <li><b>IndyCar:</b> Multiple Indianapolis 500 victories and Manufacturers Championships.</li>
+                <li><b>Isle of Man TT:</b> Dominated in the 1960s with groundbreaking motorcycle performance.</li>
+                <li><b>Endurance Racing:</b> Success in events like the Suzuka 8 Hours and other endurance series
+                    worldwide.</li>
+            </ul>
+        </aside>
+
+
+
+
+
+
+
+        <footer>
+
+            <p style="text-align: center;">&copy;Maddox Cullimore 2024</p>
+
+            <div class="icon-bar">
+                <a href="https://lisabalbach.com/cullimm/"><i class="fa fa-home"></i></a>
+                <a href="https://www.pinterest.com/maddoxcullimore/"><i class="fa fa-pinterest"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.youtube.com/@reez544"><i class="fa fa-youtube"></i></a>
+                <a href="https://www.instagram.com/kindof_madbox/"><i class="fa fa-instagram"></i></a>
+            </div>
+        </footer>
+
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+
+</html>
